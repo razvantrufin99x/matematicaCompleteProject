@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3345BEC-B795-4E49-A89E-DAC3B7D35F91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>matematicaCompleteProject</RootNamespace>
+    <AssemblyName>matematicaCompleteProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="algebra.cs" />
+    <Compile Include="analiza.cs" />
+    <Compile Include="aproximare.cs" />
+    <Compile Include="aranjamente.cs" />
+    <Compile Include="aritmetica.cs" />
+    <Compile Include="cifreromane.cs" />
+    <Compile Include="combinari.cs" />
+    <Compile Include="combinatorica.cs" />
+    <Compile Include="concluzie.cs" />
+    <Compile Include="constanta.cs" />
+    <Compile Include="corp.cs" />
+    <Compile Include="deductie.cs" />
+    <Compile Include="definitie.cs" />
+    <Compile Include="derivata.cs" />
+    <Compile Include="determinant.cs" />
+    <Compile Include="diferentiala.cs" />
+    <Compile Include="document.cs" />
+    <Compile Include="ecuatie.cs" />
+    <Compile Include="element.cs" />
+    <Compile Include="enunt.cs" />
+    <Compile Include="exponential.cs" />
+    <Compile Include="factorial.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fractii.cs" />
+    <Compile Include="functie.cs" />
+    <Compile Include="geometrie.cs" />
+    <Compile Include="grafic.cs" />
+    <Compile Include="grup.cs" />
+    <Compile Include="inductie.cs" />
+    <Compile Include="inecuatii.cs" />
+    <Compile Include="inel.cs" />
+    <Compile Include="interval.cs" />
+    <Compile Include="intregrala.cs" />
+    <Compile Include="legedecompozitie.cs" />
+    <Compile Include="lema.cs" />
+    <Compile Include="limita.cs" />
+    <Compile Include="logaritmi.cs" />
+    <Compile Include="logica.cs" />
+    <Compile Include="matematica.cs" />
+    <Compile Include="matrice.cs" />
+    <Compile Include="modulo.cs" />
+    <Compile Include="monoid.cs" />
+    <Compile Include="monom.cs" />
+    <Compile Include="multime.cs" />
+    <Compile Include="multimeanumerelor.cs" />
+    <Compile Include="muzica.cs" />
+    <Compile Include="notamuzicala.cs" />
+    <Compile Include="numar.cs" />
+    <Compile Include="numarboolean.cs" />
+    <Compile Include="numarcomplex.cs" />
+    <Compile Include="numarintreg.cs" />
+    <Compile Include="numarirational.cs" />
+    <Compile Include="numarnatural.cs" />
+    <Compile Include="numarrational.cs" />
+    <Compile Include="numarreal.cs" />
+    <Compile Include="numartranscedental.cs" />
+    <Compile Include="operatie.cs" />
+    <Compile Include="permutare.cs" />
+    <Compile Include="polinom.cs" />
+    <Compile Include="primitiva.cs" />
+    <Compile Include="problema.cs" />
+    <Compile Include="procent.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="progresie.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proportie.cs" />
+    <Compile Include="propozitie.cs" />
+    <Compile Include="proprietate.cs" />
+    <Compile Include="radical.cs" />
+    <Compile Include="raport.cs" />
+    <Compile Include="rezolvare.cs" />
+    <Compile Include="rezultat.cs" />
+    <Compile Include="setdecaractere.cs" />
+    <Compile Include="sir.cs" />
+    <Compile Include="sistem.cs" />
+    <Compile Include="sistemdecoordonate.cs" />
+    <Compile Include="sistemdenumeratie.cs" />
+    <Compile Include="statistica.cs" />
+    <Compile Include="subgrup.cs" />
+    <Compile Include="submultime.cs" />
+    <Compile Include="subsir.cs" />
+    <Compile Include="sunet.cs" />
+    <Compile Include="tabel.cs" />
+    <Compile Include="teorema.cs" />
+    <Compile Include="trigonometrie.cs" />
+    <Compile Include="unitatidemasura.cs" />
+    <Compile Include="valoare.cs" />
+    <Compile Include="vector.cs" />
+    <Compile Include="_operator.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
